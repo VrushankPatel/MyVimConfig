@@ -1,0 +1,7 @@
+Make sure you have vim and nvim installed.
+
+Then copy the nvim folder to /Users/{USER}/.config for mac
+
+Try nvim then
+
+use Mason and Lazy to install plugins and LSPs

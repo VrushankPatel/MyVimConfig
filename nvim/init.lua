@@ -1,4 +1,4 @@
-vim.g.base46_cache = vim.fn.stdpath "data" .. "/nvchad/base46/"
+vim.g.base46_cache = vim.fn.stdpath "data" .. "/base46/"
 vim.g.mapleader = " "
 
 -- bootstrap lazy and all plugins
@@ -23,8 +23,6 @@ require("lazy").setup({
   },
 
   { import = "plugins" },
-  { 'tpope/vim-fugitive', lazy = false },
-  { 'airblade/vim-gitgutter', lazy = false },
 }, lazy_config)
 
 -- load theme
@@ -37,5 +35,3 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
-
-
